@@ -1,0 +1,54 @@
+#wrap{
+height: 100%;
+min-width: 100%;
+}
+#headerInner{
+    padding-left: 20px;
+    float: left;
+}
+
+#headContact{
+ padding-top: 40px; 
+ padding-right: 20px;  
+ float: right;
+ text-align: right;
+}
+#headContactInner{
+    font-size: small;
+}
+
+#home-title{
+    padding-top: 40px;
+    text-align: center;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+#home-description{
+    text-align: center;
+
+}
+#rotate{
+    padding-top: 100px;
+    font-size: 80px;
+    text-align: center;
+  
+         
+}
+
+.btn-box{
+    text-align: center;
+    padding-top: 50px;
+   
+    
+    
+}
+
+.btn-box> button{
+    width: 10%;
+    border-radius: 6px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #283991;
+    font-size: 20px;
+}

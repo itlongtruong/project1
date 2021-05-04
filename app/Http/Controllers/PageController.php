@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function getIndex()
-    {
+    
+    public function getIndex(){
         return view('public.page.index');
     }
 }
