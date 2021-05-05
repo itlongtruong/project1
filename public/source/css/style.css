@@ -1,10 +1,11 @@
-#wrap{
-height: 100%;
-min-width: 100%;
-}
+
 #headerInner{
     padding-left: 20px;
     float: left;
+}
+
+#header{
+    height: 100px;
 }
 
 #headContact{
@@ -15,12 +16,6 @@ min-width: 100%;
 }
 #headContactInner{
     font-size: small;
-}
-
-#home-title{
-    padding-top: 40px;
-    text-align: center;
-    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
 }
 
 #home-description{
@@ -42,7 +37,7 @@ min-width: 100%;
 .btn-box> a{
     width: 10%;
     border-radius: 5px;
-    padding: 13px;
+    padding: 8px;
     color: white;
     font-weight: bold;
     background-color: #283991;
@@ -50,8 +45,84 @@ min-width: 100%;
     text-decoration:none;
 }
 
+#home-title{
+    padding-top: 10px;
+    text-align: center;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
 
-@media only screen and (max-width:991px){
+.form-login{
+    width: 400px;
+    height: 110px;
+    background-color: #E8E6E6;
+    margin: auto;
+}
+
+.btn-login-box{
+    padding-top: 20px;
+text-align: center;
+}
+
+.btn-login{
+    padding: 5px 27px 5px 27px;
+    background-color: #283890;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-cancel{
+    margin-left: 10px;
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    color: #293CAB;
+    border: 1px solid #4957A1;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.login-form{
+
+    margin: auto;
+}
+
+
+.label{
+    
+    float: left;
+    padding-top: 28px;
+    padding-left: 42px;
+    font-weight: bold;
+}
+.input-box{
+    float: right;
+    padding-top: 19px;
+    padding-right: 35px;
+}
+
+.input-id{
+    height: 22px;
+    width: 190px;
+}
+.input-password{
+    height: 21px;
+    width: 190px;
+}
+
+
+#main-table{
+    padding-top: 5px;
+    margin: auto;
+    height: 318px;
+    width: 472px;
+
+}
+#table-regis{
+    background-color: red;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
 #headerInner{
     padding-left: 0px !important;
     float: left;
@@ -94,5 +165,40 @@ min-width: 100%;
     background-color: #283991;
     font-size: 14px;
     text-decoration:none;
+}
+
+.form-login{
+    width: 310px;
+    height: 110px;
+    background-color: #E8E6E6;
+    margin: auto;
+}
+
+.label{
+    
+    float: left;
+    padding-top: 33px;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.input-box{
+    float: right;
+    padding-top: 22px;
+    padding-right: 13px;
+}
+
+.input-id{
+    height: 19px;
+    width: 183px;
+}
+.input-password{
+    height: 19px;
+    width: 183px;
+}
+
+#table-regis{
+    width: 76%;
+    background-color: red;
 }
 }

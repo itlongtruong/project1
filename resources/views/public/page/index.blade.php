@@ -9,7 +9,7 @@
 <div id="rotate">&#8768;</div>
 
 <div class="btn-box">
-    <a href="">
+    <a href="{{ url('login')}}"> 
         申請はこちら
     </a>
 </div>

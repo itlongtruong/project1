@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,4 +22,12 @@ Route::get('/', function () {
 
 Route::get('/', [PageController::class, 'getIndex']);
 
+Route::get('/login', [UserController::class, 'getLogin']);
 
+Route::post('/login', [UserController::class, 'postLogin']);
+
+Route::get('/logout', [UserController::class, 'logout']);
+
+Route::get('/registration', [UserController::class, 'getRegistration']);
+
+Route::get('/form1', [UserController::class, 'getForm1']);

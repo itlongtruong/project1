@@ -4,7 +4,7 @@
 			<div id="headerInner" class="innerBox">
 			<!-- [ #headLogo ] -->
 				<h1 id="site-title">
-				<a href="" title="公益財団法人　いばらき文化振興財団" rel="home">
+				<a href="{{ asset ('/')}}" title="公益財団法人　いばらき文化振興財団" rel="home">
 				<img src="source/images/icons/logo-2.png" alt="公益財団法人　いばらき文化振興財団"></a>
 				</h1>
 			</div>	
@@ -20,7 +20,7 @@
 
 		</div>
 			<!-- #headerInner -->
-			<hr width="100%" size="5px"  color="#283890" />
-	</div>
+			<hr class="menu-line" width="100%" size="5px"  color="#283890" />
+	
 
 	

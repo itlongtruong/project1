@@ -8,9 +8,8 @@
 
        <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
        <link rel="dns-prefetch" href="//fonts.googleapis.com">
-       <link href="source/css/style.css" rel="stylesheet">
-       <link href="SHORTCUT ICON"  href="source/images/icons/logo.png">
-        
+       <link href="source/css/style.css?v=1" rel="stylesheet">
+       
     </head>
     <body>
 		@include('public.layouts.header')
