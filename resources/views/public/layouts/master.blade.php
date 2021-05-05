@@ -9,6 +9,7 @@
        <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
        <link rel="dns-prefetch" href="//fonts.googleapis.com">
        <link href="source/css/style.css" rel="stylesheet">
+       <link href="SHORTCUT ICON"  href="source/images/icons/logo.png">
         
     </head>
     <body>

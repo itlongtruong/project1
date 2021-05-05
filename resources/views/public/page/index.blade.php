@@ -9,8 +9,8 @@
 <div id="rotate">&#8768;</div>
 
 <div class="btn-box">
-    <button type="submit">
+    <a href="">
         申請はこちら
-    </button>
+    </a>
 </div>
 @endsection
